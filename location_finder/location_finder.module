@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains the module.
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function location_finder_theme($existing, $type, $theme, $path) {
+  return array(
+    'locationtimeblock' => array(
+      'variables' => array(
+          'loc_country' => NULL,
+          'loc_city' => NULL,
+          'loc_time' => NULL,
+      ),
+      'template' => 'locationtimeblock'
+    ),
+  );
+}

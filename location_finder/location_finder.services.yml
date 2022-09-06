@@ -1,0 +1,4 @@
+services:
+  location.items.service:
+    class: Drupal\location_finder\LocationService
+    arguments: ['@config.factory']

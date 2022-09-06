@@ -1,0 +1,6 @@
+locationidentifier.settings:
+  title: 'Location Settings'
+  route_name: location.settings
+  description: 'Location Block Settings Form'
+  parent: system.admin_config_system
+  weight: 50
